@@ -40,9 +40,16 @@ const io = new Server(server, {
 app.use(cors());
 app.use(express.json());
 app.use("/uploads", express.static(path.join(__dirname, "backend", "uploads")));
+app.use(express.static(path.join(__dirname, "../../public")));
 
 app.get("/", (req, res) => {
-  res.send("5-Second Answers API OK");
+  const dashboardPath = path.join(__dirname, "../../public/index.html");
+  const fs = require("fs");
+  if (fs.existsSync(dashboardPath)) {
+    res.sendFile(dashboardPath);
+  } else {
+    res.json({ status: "10-Second Answers API", version: "2.0.0" });
+  }
 });
 
 app.get("/health", (req, res) => {
