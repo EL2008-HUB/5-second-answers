@@ -1,0 +1,167 @@
+👉 Fokus:
+
+build vetëm çfarë sjell growth
+mos humb kohë me gjëra të panevojshme
+🚀 🗺️ FAZA 1 (DITA 1–7) — “CORE ADDICTION”
+
+🎯 Qëllimi: user të hapë app-in çdo ditë
+
+✅ Dita 1–2
+
+👉 Streak System
+
+streak count (1,2,3…)
+ruaje në DB
+reset nëse user s’është aktiv
+✅ Dita 3
+
+👉 Daily Question (QOD)
+
+1 pyetje çdo ditë
+të gjithë userat e shohin
+✅ Dita 4
+
+👉 Push Notifications
+
+“Streak po të prishet 🔥”
+“Daily question është live”
+✅ Dita 5
+
+👉 Quick Answer (Po/Jo)
+
+përgjigje me 1 tap
+zero friction
+✅ Dita 6–7
+
+👉 Leaderboard (weekly)
+
+top users
+pikë për:
+përgjigje
+aktivitet
+💥 REZULTATI:
+
+👉 user kthehet çdo ditë
+👉 fillon konkurrenca
+
+🚀 🗺️ FAZA 2 (DITA 8–15) — “ENGAGEMENT + VIRAL MECHANICS”
+
+🎯 Qëllimi: user të ndërveprojë shumë
+
+✅ Dita 8–9
+
+👉 Opinion Battles ⚔️
+
+Po vs Jo
+rezultat live
+✅ Dita 10
+
+👉 “Join Minority” Feature
+
+“Ti je në 23% 🔥”
+✅ Dita 11–12
+
+👉 Reaction System (pa komente)
+
+😎 / 😡 / 🤯
+shumë më i shpejtë se typing
+✅ Dita 13
+
+👉 Feed me scroll (jo bosh)
+
+Trending
+Questions
+Battles
+✅ Dita 14–15
+
+👉 Voice Answers 🎙
+
+user përgjigjet me zë
+ruhet si audio
+💥 REZULTATI:
+
+👉 user nuk lexon vetëm → vepron
+👉 shumë engagement
+
+🚀 🗺️ FAZA 3 (DITA 16–23) — “CONTENT ENGINE”
+
+🎯 Qëllimi: app mbushet vetë
+
+✅ Dita 16–17
+
+👉 Trending Pipeline (që ke bërë)
+
+Reddit
+News
+YouTube
+✅ Dita 18
+
+👉 Auto Questions nga trends
+
+pipeline → DB
+✅ Dita 19–20
+
+👉 Country-based feed 🌍
+
+Shqipëri
+USA
+UK
+✅ Dita 21
+
+👉 Global feed
+
+pyetje nga gjithë bota
+✅ Dita 22–23
+
+👉 Seed 50–100 pyetje manuale
+
+👉 shumë e rëndësishme
+(pa këtë app duket bosh)
+
+💥 REZULTATI:
+
+👉 nuk varet nga userat për content
+👉 gjithmonë ka diçka për të parë
+
+🚀 🗺️ FAZA 4 (DITA 24–30) — “VIRAL LAUNCH”
+
+🎯 Qëllimi: ta shpërndash dhe të rritesh
+
+✅ Dita 24
+
+👉 Share Feature
+
+share pyetje si story
+screenshot style
+✅ Dita 25
+
+👉 “Your Result” screen
+
+“Ti je në 12%”
+shumë shareable
+✅ Dita 26–27
+
+👉 TikTok Content Creation
+
+👉 krijo 10 video:
+
+pyetje interesante
+përgjigje
+rezultate
+✅ Dita 28
+
+👉 Soft Launch
+
+20–50 njerëz
+feedback
+✅ Dita 29
+
+👉 Fix bugs + improve UI
+
+✅ Dita 30 🚀
+
+👉 PUBLIC LAUNCH
+
+TikTok
+Instagram
+friends
