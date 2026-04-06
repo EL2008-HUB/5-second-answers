@@ -1,0 +1,4 @@
+The following packages should be updated for best compatibility with the installed expo version:
+  expo@54.0.30 - expected version: ~54.0.33
+  expo-video@3.0.15 - expected version: ~3.0.16
+Your project may not work correctly until you install the expected versions of the packages.

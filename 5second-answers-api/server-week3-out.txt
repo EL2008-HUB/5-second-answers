@@ -1,0 +1,98 @@
+[dotenv@17.2.3] injecting env (20) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+✅ PostgreSQL connected successfully
+Database migrations are up to date
+Notification scheduler active in America/Los_Angeles
+[Rooms] Cleanup scheduler active every 300s
+API running on http://0.0.0.0:5000
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'Meryl Streep tregon arsyen pse “The Devil Wears Prada” pati vështirësi të sigurojë financim'
+}
+AI OUTPUT: { feature: 'generateQuestion', question: 'A e beson?', langCode: 'sq' }
+[AI] Starting validation for text answer
+[AI] Summarizing text to 10 words
+AI INPUT: {
+  feature: 'generateAIComment',
+  question: 'A do të burgoset Berisha?',
+  answer: 'Kur flet drejt dhe pa filtra fare.',
+  timeMode: '5s',
+  langCode: 'sq',
+  aiReview: {
+    approved: false,
+    feedback: "The answer does not address the question about Berisha's potential imprisonment, instead providing an unrelated and vague statement.",
+    score: 0.22,
+    shortSummary: 'Flet drejt.',
+    transcript: null,
+    fact: { score: 0.65, verdict: 'likely_true' },
+    effort: 0.5,
+    clarity: 0,
+    category: 'off_topic',
+    langCode: 'en',
+    relevance: 0,
+    overlapScore: 0
+  },
+  style: 'savage',
+  temperature: 0.82
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Kur flet drejt dhe pa filtra fare.',
+  langCode: 'sq',
+  question: 'A do të burgoset Berisha?',
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI OUTPUT: {
+  feature: 'generateAIComment',
+  comment: '💀 Prit, kjo doli krejt jashte teme.',
+  emoji: '💀',
+  guardrail: true,
+  langCode: 'sq',
+  style: 'savage'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'savage',
+  intensity: 0.8,
+  debate_score: 0.6,
+  relatability: 0.4,
+  langCode: 'sq'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'Juventusi kontakton Jorge Mendesin për Silvan'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'A do të arrijë Silvi në Juventus?',
+  langCode: 'sq'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'Rritja e çmimit të karburanteve, Berisha: Në Kuvend do dorëzojmë amendamente! Hetim për Autoritetin e Konkurrencës, është i zhytur në naftë'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'A do ndryshojë diçka?',
+  langCode: 'sq'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'PDK-ja kërkon pako emergjente për përballimin e çmimeve'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'A do ndikojë paketa e PDK-së në çmimet?',
+  langCode: 'sq'
+}

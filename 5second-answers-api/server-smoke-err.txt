@@ -1,0 +1,1 @@
+[AI] Google Fact Check unavailable, using fallback: disabled by GOOGLE_FACT_CHECK_ENABLED=false

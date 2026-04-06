@@ -1,0 +1,9 @@
+Get gamification user stats error: RangeError: Invalid time value
+    at Date.toISOString (<anonymous>)
+    at addDaysToDateKey (C:\Users\eb826\OneDrive\Desktop\5 second answers\5second-answers\5second-answers-api\src\backend\services\growthService.js:60:15)
+    at C:\Users\eb826\OneDrive\Desktop\5 second answers\5second-answers\5second-answers-api\src\backend\services\growthService.js:564:25
+    at Array.forEach (<anonymous>)
+    at Object.getDailyMissionState (C:\Users\eb826\OneDrive\Desktop\5 second answers\5second-answers\5second-answers-api\src\backend\services\growthService.js:563:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async Promise.all (index 1)
+    at async exports.getUserStats (C:\Users\eb826\OneDrive\Desktop\5 second answers\5second-answers\5second-answers-api\src\backend\controllers\gamificationController.js:300:45)

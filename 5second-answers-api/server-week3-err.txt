@@ -1,0 +1,4 @@
+[AI] Google Fact Check unavailable, using fallback: disabled by GOOGLE_FACT_CHECK_ENABLED=false
+[2026-04-03T17:15:28.454Z] [PID: 23088] [32m[NODE-CRON][32m [33m[WARN][0m missed execution at Fri Apr 03 2026 10:10:00 GMT-0700 (Pacific Daylight Time)! Possible blocking IO or high CPU user at the same process used by node-cron.
+[2026-04-03T18:09:24.071Z] [PID: 23088] [32m[NODE-CRON][32m [33m[WARN][0m missed execution at Fri Apr 03 2026 11:00:00 GMT-0700 (Pacific Daylight Time)! Possible blocking IO or high CPU user at the same process used by node-cron.
+[2026-04-03T18:09:24.540Z] [PID: 23088] [32m[NODE-CRON][32m [33m[WARN][0m missed execution at Fri Apr 03 2026 11:00:00 GMT-0700 (Pacific Daylight Time)! Possible blocking IO or high CPU user at the same process used by node-cron.

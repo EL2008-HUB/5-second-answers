@@ -1,0 +1,8 @@
+[dotenv@17.2.3] injecting env (18) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+✅ PostgreSQL connected successfully
+Database migrations are up to date
+Notification scheduler active in America/Los_Angeles
+🚀 API running on http://0.0.0.0:5000

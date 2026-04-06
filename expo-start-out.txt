@@ -1,0 +1,5 @@
+Networking has been disabled
+Starting project at C:\Users\eb826\OneDrive\Desktop\5 second answers\5second-answers
+Starting Metro Bundler
+Waiting on http://localhost:8081
+Logs for your project will appear below.

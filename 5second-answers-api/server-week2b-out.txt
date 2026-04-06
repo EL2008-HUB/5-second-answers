@@ -1,0 +1,13 @@
+[dotenv@17.2.3] injecting env (20) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+✅ PostgreSQL connected successfully
+Database migrations are up to date
+Notification scheduler active in America/Los_Angeles
+[Rooms] Cleanup scheduler active every 300s
+API running on http://0.0.0.0:5000
+[AI] Starting validation for text answer
+[AI] Summarizing text to 10 words
+[AI] Starting validation for text answer
+[AI] Summarizing text to 10 words

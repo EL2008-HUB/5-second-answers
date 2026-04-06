@@ -1,0 +1,8 @@
+
+> 5second-answers@1.0.0 start
+> expo start --offline
+
+Networking has been disabled
+Starting project at C:\Users\eb826\OneDrive\Desktop\5 second answers\5second-answers
+› Port 8081 is being used by another process
+› Skipping dev server

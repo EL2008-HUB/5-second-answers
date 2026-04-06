@@ -1,0 +1,393 @@
+[dotenv@17.2.3] injecting env (20) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+✅ PostgreSQL connected successfully
+Database migrations are up to date
+Notification scheduler active in America/Los_Angeles
+[Rooms] Cleanup scheduler active every 300s
+API running on http://0.0.0.0:5000
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Sherr në Shkodër, plagosen me thikë dy të mitur',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Demokratët thirrje Trump që të ndalojë prodhimin e makinave kineze në SHBA',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Detaje nga sherri me thika mes të rinjve në Shkodër, policia jep detajet e para: Të plagosurit janë 19 dhe 17 vjeç, ja pse u konfliktuan',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Gënjeshtra e 1 prillit mund të bëhet realitet për Shaqirin',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Qeveria zotohet t’i mbrojë konsumatorët nga fryrjet artificiale të çmimeve',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Schmitti, Malcolmi e të tjerët i kërkojnë Prokurorisë t’i ndalë hetimet ndaj Gashit',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Hamza takon strukturat e PDK në Gjilan e Viti: Qeveria Kurti spektatore, vendi është drejt një krize të re',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Berisha: Si ju mashtron Rama për çmimin e naftës',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'VIDEO-LAJM/ Hyjnë në fuqi çmimet e reja të karburantit të vendosura nga Bordi i Transparencës, pas uljes së akcizës me 20%',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Mustafa reagon për përplasjen me Egzon Azemin: S’e duroj ofendimin nga askush, s’është e lehtë të përballesh me nivel të tillë',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Del Piero e ‘godet’ reformën tek Italia: Po mendojmë për ta shpëtuar vetëm vetën, kjo duhet ndryshuar',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'VIDEO/ Sherr me thika mes adoleshentëve në Shkodër, plagosen rëndë 2 persona, transportohen në spital',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Prapaskena nga mbledhja pa media e PS, Rama akuzon dy ish-ministrat e qeverisë: Fike telefonin se e ke zakon që përgjon! Ti tjetri merresh me llafazanllëqe',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: '“Karriget nuk janë kurrë qëllim, forcimi i PS duke u hapur”- Braçe poston pas Asamblesë: Koha ikën dhe nuk kthehet! Respekt për mundin e gjithkujt, të përfshijmë dhe&#8230;',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'SUPERIORE/ Dinamo e Ilir Dajës në alarm, në 52% të ndeshjeve nuk shënon!',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'chaotic',
+  intensity: 0.8,
+  debate_score: 0.2,
+  relatability: 0.4,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'funny',
+  intensity: 0.6,
+  debate_score: 0.4,
+  relatability: 0.7,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'bold',
+  intensity: 0.8,
+  debate_score: 0.6,
+  relatability: 0.4,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'chaotic',
+  intensity: 0.8,
+  debate_score: 0.2,
+  relatability: 0.4,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'confident',
+  intensity: 0.7,
+  debate_score: 0.8,
+  relatability: 0.6,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'awkward',
+  intensity: 0.6,
+  debate_score: 0.4,
+  relatability: 0.7,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'chaotic',
+  intensity: 0.8,
+  debate_score: 0.6,
+  relatability: 0.4,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'savage',
+  intensity: 0.8,
+  debate_score: 0.6,
+  relatability: 0.4,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.4,
+  debate_score: 0.2,
+  relatability: 0.6,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'emotional',
+  intensity: 0.8,
+  debate_score: 0.6,
+  relatability: 0.7,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'emotional',
+  intensity: 0.8,
+  debate_score: 0.6,
+  relatability: 0.7,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'chaotic',
+  intensity: 0.8,
+  debate_score: 0.2,
+  relatability: 0.6,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'savage',
+  intensity: 0.8,
+  debate_score: 0.6,
+  relatability: 0.4,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'confident',
+  intensity: 0.8,
+  debate_score: 0.6,
+  relatability: 0.4,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'chaotic',
+  intensity: 0.8,
+  debate_score: 0.4,
+  relatability: 0.6,
+  langCode: 'sq'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Vitia nuk tregon se kur fillon zbatimi i sigurimeve shëndetësore',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Ulutas takon Arqipeshkvin italian, KFOR: Inkurajojmë dialogun ndërmjet gjithë përfaqësuesve fetarë në Kosovë',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'S’ka kuorum për rezolutën e LDK-së për çmimin e naftës',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'LAJM I FUNDIT/ 2 të rinj plagosen me thikë në Shkodër',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'EMRI/ Detaje nga sherri me thika mes të rinjve në Shkodër, policia jep detajet e para: Të plagosurit janë 19 dhe 17 vjeç, ja pse u konfliktuan',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Rezoluta e LDK për derivatet e naftës nuk hidhet në votim për shkak të mungesës së deputetëve &#8211; shtyhet për seancën tjetër',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: '&#8220;Përballemi me këtë qeveri deri në rrëzimin e saj”/ Berisha fton qytetarët në protestë: Të ngrihemi në revolta të fuqishme! Çmimi i naftës shkak madhor&#8230;',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'A do t&#8217;i kthejë Gjermania 80% të refugjatëve sirianë?/Auron Dodi: Do të jepen 200 mln euro për rindërtimin e Sirisë',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Edhe korrupsion, edhe rritje ekonomike!',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.2,
+  debate_score: 0.4,
+  relatability: 0.6,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.2,
+  debate_score: 0.4,
+  relatability: 0.6,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'awkward',
+  intensity: 0.6,
+  debate_score: 0.4,
+  relatability: 0.7,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'chaotic',
+  intensity: 0.8,
+  debate_score: 0.2,
+  relatability: 0.4,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'chaotic',
+  intensity: 0.8,
+  debate_score: 0.2,
+  relatability: 0.4,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'awkward',
+  intensity: 0.6,
+  debate_score: 0.4,
+  relatability: 0.7,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'bold',
+  intensity: 0.8,
+  debate_score: 0.6,
+  relatability: 0.4,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'savage',
+  intensity: 0.8,
+  debate_score: 0.4,
+  relatability: 0.6,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'chaotic',
+  intensity: 0.7,
+  debate_score: 0.4,
+  relatability: 0.6,
+  langCode: 'sq'
+}

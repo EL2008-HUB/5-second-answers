@@ -1,0 +1,5 @@
+Starting project at C:\Users\eb826\OneDrive\Desktop\5 second answers\5second-answers
+Metro is running in CI mode, reloads are disabled. Remove CI=true to enable watch mode.
+Starting Metro Bundler
+Waiting on http://localhost:8082
+Logs for your project will appear below.
