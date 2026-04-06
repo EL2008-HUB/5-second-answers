@@ -1,0 +1,3856 @@
+[dotenv@17.2.3] injecting env (34) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+✅ PostgreSQL connected successfully
+Database migrations are up to date
+Notification scheduler active in America/Los_Angeles
+[Rooms] Cleanup scheduler active every 300s
+API running on http://0.0.0.0:5000
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'Zelensky akuza Moskës: I ka ofruar Iranit inteligjencë satelitore mbi infrastrukturën energjetike të Izraelit'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'Zelensky akuza Moskës: I ka ofruar Iranit inteligjencë satelitore mbi infrastrukturën energjetike të Izraelit'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'Zelensky akuza Moskës: I ka ofruar Iranit inteligjencë satelitore mbi infrastrukturën energjetike të Izraelit'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: '* Insert hot fuzz "Shame" meme *',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: '“Shtëpi” hap dyert për treshen e radhës në Paris',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Frustrimi i radhës i Fisnik Asllanit',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Me_irl',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Talk like caveman',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: "The threat is comfortable drift toward not understanding what you're doing",
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'southampton vs arsenal',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Xhavit Jashari ofendon Shkëlzen Gashin, e quan idiot',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: '* Insert hot fuzz "Shame" meme *',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Vetëm një stadium është gati në Itali për EURO 2032',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: '“Shtëpi” hap dyert për treshen e radhës në Paris',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Frustrimi i radhës i Fisnik Asllanit',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Me_irl',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Would your country do this?',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Snake outside my front door had a penny',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Talk like caveman',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Show HN: A game where you build a GPU',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'atlético madrid vs barcelona',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Lisette a little language inspired by Rust that compiles to Go',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: "The threat is comfortable drift toward not understanding what you're doing",
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: '* Insert hot fuzz "Shame" meme *',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: '&#8220;Shijuan një stil luksoz jetese në Los Angeles&#8221;/ SHBA arreston mbesat e ish-komandatit iranian Soleimani, u revokohet Karta e Gjelbër',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'I riu egjiptian u gjet pa shenja jete në një banesë të braktisur, policia: Trupi është transportuar në morgun e Tiranës! Nga ekspertiza rezulton se&#8230;',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Me_irl',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Talk like caveman',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: "The threat is comfortable drift toward not understanding what you're doing",
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'southampton vs arsenal',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: '* Insert hot fuzz "Shame" meme *',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'I riu egjiptian u gjet pa shenja jete në një banesë të braktisur, policia: Trupi është transportuar në morgun e Tiranës! Nga ekspertiza rezulton se&#8230;',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: '&#8220;Shijuan një stil luksoz jetese në Los Angeles&#8221;/ SHBA arreston mbesat e ish-komandatit iranian Soleimani, u revokohet Karta e Gjelbër',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Me_irl',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Would your country do this?',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Snake outside my front door had a penny',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Talk like caveman',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Show HN: A game where you build a GPU',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'atlético madrid vs barcelona',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Lisette a little language inspired by Rust that compiles to Go',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: "The threat is comfortable drift toward not understanding what you're doing",
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Irani refuzon ultimatumin e ri të Trump: Kërcënimet për ferr janë të pakuptimta dhe të pamenduara',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Besimtarët katolikë kremtojnë Vigjiljen e Pashkës në Tiranë, mesha zhvillohet në Katedralen &#8220;Shën Pali&#8221;',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'iran krieg',
+  langCode: 'de',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Pope&apos;s Easter message: Leaders must choose peace over war',
+  langCode: 'de',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Osterbotschaft von Leo XIV.: Deutliche Worte an die, die Kriege beginnen',
+  langCode: 'de',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: '* Insert hot fuzz "Shame" meme *',
+  langCode: 'de',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Me_irl',
+  langCode: 'de',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Talk like caveman',
+  langCode: 'de',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: "The threat is comfortable drift toward not understanding what you're doing",
+  langCode: 'de',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'funny',
+  intensity: 0.5,
+  debate_score: 0.2,
+  relatability: 0.7,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: '“Shtëpi” hap dyert për treshen e radhës në Paris'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'Frustrimi i radhës i Fisnik Asllanit'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: '* Insert hot fuzz "Shame" meme *'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'Me_irl'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'Talk like caveman'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: '“Shtëpi” hap dyert për treshen e radhës në Paris',
+  category: 'Tjera',
+  country: 'XK',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.66
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Talk like caveman',
+  category: 'Tjera',
+  country: 'XK',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.58
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Frustrimi i radhës i Fisnik Asllanit',
+  category: 'Tjera',
+  country: 'XK',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.66
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: '* Insert hot fuzz "Shame" meme *',
+  category: 'Politike',
+  country: 'XK',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'funny',
+    intensity: 0.5,
+    debate_score: 0.2,
+    relatability: 0.7,
+    langCode: 'sq'
+  },
+  viralScore: 0.63
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Me_irl',
+  category: 'Tjera',
+  country: 'XK',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.63
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'iran krieg',
+  langCode: 'de',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Osterbotschaft von Leo XIV.: Deutliche Worte an die, die Kriege beginnen',
+  langCode: 'de',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Pope&apos;s Easter message: Leaders must choose peace over war',
+  langCode: 'de',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Would your country do this?',
+  langCode: 'de',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Snake outside my front door had a penny',
+  langCode: 'de',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'FDP-Chef Dürr kandidiert nicht mehr für Parteivorsitz',
+  langCode: 'de',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Show HN: A game where you build a GPU',
+  langCode: 'de',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Lisette a little language inspired by Rust that compiles to Go',
+  langCode: 'de',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: '&apos;People&apos;s Republic&apos; rumors: Does an Estonian city really want to join Russia?',
+  langCode: 'de',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.5,
+  debate_score: 0.3,
+  relatability: 0.4,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'Xhavit Jashari ofendon Shkëlzen Gashin, e quan idiot'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'Vetëm një stadium është gati në Itali për EURO 2032'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: '“Shtëpi” hap dyert për treshen e radhës në Paris'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'Frustrimi i radhës i Fisnik Asllanit'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: '* Insert hot fuzz "Shame" meme *'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Xhavit Jashari ofendon Shkëlzen Gashin, e quan idiot',
+  category: 'Tjera',
+  country: 'XK',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.67
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Vetëm një stadium është gati në Itali për EURO 2032',
+  category: 'Sport',
+  country: 'XK',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.66
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: '“Shtëpi” hap dyert për treshen e radhës në Paris',
+  category: 'Tjera',
+  country: 'XK',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.66
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Frustrimi i radhës i Fisnik Asllanit',
+  category: 'Tjera',
+  country: 'XK',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.66
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: '* Insert hot fuzz "Shame" meme *',
+  category: 'Politike',
+  country: 'XK',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.64
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'funny',
+  intensity: 0.5,
+  debate_score: 0.2,
+  relatability: 0.7,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: '&#8220;Shijuan një stil luksoz jetese në Los Angeles&#8221;/ SHBA arreston mbesat e ish-komandatit iranian Soleimani, u revokohet Karta e Gjelbër'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'I riu egjiptian u gjet pa shenja jete në një banesë të braktisur, policia: Trupi është transportuar në morgun e Tiranës! Nga ekspertiza rezulton se&#8230;'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: '* Insert hot fuzz "Shame" meme *'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'Me_irl'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'Talk like caveman'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: '&#8220;Shijuan një stil luksoz jetese në Los Angeles&#8221;/ SHBA arreston mbesat e ish-komandatit iranian Soleimani, u revokohet Karta e Gjelbër',
+  category: 'Krim',
+  country: 'AL',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.66
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'I riu egjiptian u gjet pa shenja jete në një banesë të braktisur, policia: Trupi është transportuar në morgun e Tiranës! Nga ekspertiza rezulton se&#8230;',
+  category: 'Krim',
+  country: 'AL',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.66
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: '* Insert hot fuzz "Shame" meme *',
+  category: 'Politike',
+  country: 'AL',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.64
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Me_irl',
+  category: 'Tjera',
+  country: 'AL',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.63
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Talk like caveman',
+  category: 'Tjera',
+  country: 'AL',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.58
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Happy Retirement!',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: '“Artemis II është tashmë më afër Hënës sesa Tokës”, NASA: Ekuipazhi pritet të bëhet dëshmitar i një eklipsi të rrallë diellor',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'German implementation of eIDAS will require an Apple/Google account to function',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Irani refuzon ultimatumin e ri të Trump: Kërcënimet për ferr janë të pakuptimta dhe të pamenduara',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI INPUT: {
+  feature: 'analyzeSentiment',
+  answer: 'Besimtarët katolikë kremtojnë Vigjiljen e Pashkës në Tiranë, mesha zhvillohet në Katedralen &#8220;Shën Pali&#8221;',
+  langCode: 'sq',
+  question: null,
+  temperature: 0.25,
+  timeMode: '5s'
+}
+[AI ROUTE] {
+  complexity: 'medium',
+  model: 'mistralai/mixtral-8x7b-instruct',
+  provider: 'openrouter',
+  role: 'smart',
+  taskType: 'sentiment'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'I riu egjiptian u gjet pa shenja jete në një banesë të braktisur, policia: Trupi është transportuar në morgun e Tiranës! Nga ekspertiza rezulton se&#8230;'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: '&#8220;Shijuan një stil luksoz jetese në Los Angeles&#8221;/ SHBA arreston mbesat e ish-komandatit iranian Soleimani, u revokohet Karta e Gjelbër'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: '* Insert hot fuzz "Shame" meme *'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'Me_irl'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'Would your country do this?'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'I riu egjiptian u gjet pa shenja jete në një banesë të braktisur, policia: Trupi është transportuar në morgun e Tiranës! Nga ekspertiza rezulton se&#8230;',
+  category: 'Krim',
+  country: 'AL',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.66
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: '&#8220;Shijuan një stil luksoz jetese në Los Angeles&#8221;/ SHBA arreston mbesat e ish-komandatit iranian Soleimani, u revokohet Karta e Gjelbër',
+  category: 'Krim',
+  country: 'AL',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.66
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: '* Insert hot fuzz "Shame" meme *',
+  category: 'Politike',
+  country: 'AL',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'funny',
+    intensity: 0.5,
+    debate_score: 0.2,
+    relatability: 0.7,
+    langCode: 'sq'
+  },
+  viralScore: 0.63
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Me_irl',
+  category: 'Tjera',
+  country: 'AL',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.63
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Would your country do this?',
+  category: 'Politike',
+  country: 'AL',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.63
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'bold',
+  intensity: 0.7,
+  debate_score: 0.3,
+  relatability: 0.2,
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'de'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'de',
+  temperature: 0.7,
+  title: 'iran krieg'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'de',
+  temperature: 0.7,
+  title: 'Pope&apos;s Easter message: Leaders must choose peace over war'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'de',
+  temperature: 0.7,
+  title: 'Osterbotschaft von Leo XIV.: Deutliche Worte an die, die Kriege beginnen'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'de',
+  temperature: 0.7,
+  title: '* Insert hot fuzz "Shame" meme *'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'de',
+  temperature: 0.7,
+  title: 'Me_irl'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'iran krieg',
+  category: 'Technologie',
+  country: 'DE',
+  langCode: 'de',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'de'
+  },
+  viralScore: 0.7
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Pope&apos;s Easter message: Leaders must choose peace over war',
+  category: 'Welt',
+  country: 'DE',
+  langCode: 'de',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'de'
+  },
+  viralScore: 0.67
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Osterbotschaft von Leo XIV.: Deutliche Worte an die, die Kriege beginnen',
+  category: 'Welt',
+  country: 'DE',
+  langCode: 'de',
+  sentiment: {
+    emotion: 'bold',
+    intensity: 0.7,
+    debate_score: 0.3,
+    relatability: 0.2,
+    langCode: 'de'
+  },
+  viralScore: 0.67
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: '* Insert hot fuzz "Shame" meme *',
+  category: 'Politik',
+  country: 'DE',
+  langCode: 'de',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'de'
+  },
+  viralScore: 0.64
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Me_irl',
+  category: 'Allgemein',
+  country: 'DE',
+  langCode: 'de',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'de'
+  },
+  viralScore: 0.63
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'bold',
+  intensity: 0.7,
+  debate_score: 0.5,
+  relatability: 0.4,
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'bold',
+  intensity: 0.7,
+  debate_score: 0.2,
+  relatability: 0.5,
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'de'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'de',
+  temperature: 0.7,
+  title: 'iran krieg'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'de',
+  temperature: 0.7,
+  title: 'Osterbotschaft von Leo XIV.: Deutliche Worte an die, die Kriege beginnen'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'de',
+  temperature: 0.7,
+  title: 'Pope&apos;s Easter message: Leaders must choose peace over war'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'de',
+  temperature: 0.7,
+  title: '* Insert hot fuzz "Shame" meme *'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'de',
+  temperature: 0.7,
+  title: 'Me_irl'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'iran krieg',
+  category: 'Technologie',
+  country: 'DE',
+  langCode: 'de',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'de'
+  },
+  viralScore: 0.7
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Osterbotschaft von Leo XIV.: Deutliche Worte an die, die Kriege beginnen',
+  category: 'Welt',
+  country: 'DE',
+  langCode: 'de',
+  sentiment: {
+    emotion: 'bold',
+    intensity: 0.7,
+    debate_score: 0.5,
+    relatability: 0.4,
+    langCode: 'de'
+  },
+  viralScore: 0.7
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Pope&apos;s Easter message: Leaders must choose peace over war',
+  category: 'Welt',
+  country: 'DE',
+  langCode: 'de',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'de'
+  },
+  viralScore: 0.66
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: '* Insert hot fuzz "Shame" meme *',
+  category: 'Politik',
+  country: 'DE',
+  langCode: 'de',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.64
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Me_irl',
+  category: 'Allgemein',
+  country: 'DE',
+  langCode: 'de',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.63
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'A beson se kjo shkon ne aktakuze?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ceshtja po shkon drejt presionit ligjor.',
+  implication: 'Mund te ndryshoje besimin publik dhe klimën politike.',
+  action: 'Mos u mbeshtet te zhurma; prit nje fakt ose dokument zyrtar.',
+  risk: 'medium',
+  why_now: 'Kur hyn ligji ne loje, narrativa ndryshon shpejt.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'funny',
+  intensity: 0.5,
+  debate_score: 0.1,
+  relatability: 0.3,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'confident',
+  intensity: 0.6,
+  debate_score: 0.3,
+  relatability: 0.2,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'confident',
+  intensity: 0.6,
+  debate_score: 0.4,
+  relatability: 0.3,
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Vetëm një stadium është gati në Itali për EURO 2032',
+  category: 'Sport',
+  country: 'XK',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.66
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: '“Shtëpi” hap dyert për treshen e radhës në Paris',
+  category: 'Tjera',
+  country: 'XK',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.66
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Xhavit Jashari ofendon Shkëlzen Gashin, e quan idiot',
+  category: 'Tjera',
+  country: 'XK',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.67
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI OUTPUT: {
+  feature: 'analyzeSentiment',
+  emotion: 'calm',
+  intensity: 0.45,
+  debate_score: 0.4,
+  relatability: 0.5,
+  langCode: 'sq'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'I riu egjiptian u gjet pa shenja jete në një banesë të braktisur, policia: Trupi është transportuar në morgun e Tiranës! Nga ekspertiza rezulton se&#8230;'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: '&#8220;Shijuan një stil luksoz jetese në Los Angeles&#8221;/ SHBA arreston mbesat e ish-komandatit iranian Soleimani, u revokohet Karta e Gjelbër'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: '* Insert hot fuzz "Shame" meme *'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'Me_irl'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'Would your country do this?'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'I riu egjiptian u gjet pa shenja jete në një banesë të braktisur, policia: Trupi është transportuar në morgun e Tiranës! Nga ekspertiza rezulton se&#8230;',
+  category: 'Krim',
+  country: 'AL',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.66
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: '&#8220;Shijuan një stil luksoz jetese në Los Angeles&#8221;/ SHBA arreston mbesat e ish-komandatit iranian Soleimani, u revokohet Karta e Gjelbër',
+  category: 'Krim',
+  country: 'AL',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.66
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: '* Insert hot fuzz "Shame" meme *',
+  category: 'Politike',
+  country: 'AL',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'funny',
+    intensity: 0.5,
+    debate_score: 0.2,
+    relatability: 0.7,
+    langCode: 'sq'
+  },
+  viralScore: 0.63
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Me_irl',
+  category: 'Tjera',
+  country: 'AL',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.63
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Would your country do this?',
+  category: 'Politike',
+  country: 'AL',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.63
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'A beson se kjo shkon ne aktakuze?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'mistralai/mixtral-8x22b-instruct',
+  provider: 'openrouter',
+  role: 'backup',
+  taskType: 'decision_support'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'mistralai/mixtral-8x22b-instruct',
+  provider: 'openrouter',
+  role: 'backup',
+  taskType: 'news_question_generation'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'mistralai/mixtral-8x22b-instruct',
+  provider: 'openrouter',
+  role: 'backup',
+  taskType: 'news_question_generation'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ceshtja po shkon drejt presionit ligjor.',
+  implication: 'Mund te ndryshoje besimin publik dhe klimën politike.',
+  action: 'Mos u mbeshtet te zhurma; prit nje fakt ose dokument zyrtar.',
+  risk: 'medium',
+  why_now: 'Kur hyn ligji ne loje, narrativa ndryshon shpejt.',
+  langCode: 'sq'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'mistralai/mixtral-8x22b-instruct',
+  provider: 'openrouter',
+  role: 'backup',
+  taskType: 'news_question_generation'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Warum spricht jeder daruber?',
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Warum spricht jeder daruber?',
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'This news is gaining importance quickly.',
+  implication: 'It may affect your daily decisions or costs.',
+  action: 'Stay alert and do not act before one more concrete fact.',
+  risk: 'medium',
+  why_now: 'It is picking up attention now and may shift fast.',
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'This news is gaining importance quickly.',
+  implication: 'It may affect your daily decisions or costs.',
+  action: 'Stay alert and do not act before one more concrete fact.',
+  risk: 'medium',
+  why_now: 'It is picking up attention now and may shift fast.',
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'This news is gaining importance quickly.',
+  implication: 'It may affect your daily decisions or costs.',
+  action: 'Stay alert and do not act before one more concrete fact.',
+  risk: 'medium',
+  why_now: 'It is picking up attention now and may shift fast.',
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Warum spricht jeder daruber?',
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'This news is gaining importance quickly.',
+  implication: 'It may affect your daily decisions or costs.',
+  action: 'Stay alert and do not act before one more concrete fact.',
+  risk: 'medium',
+  why_now: 'It is picking up attention now and may shift fast.',
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Warum spricht jeder daruber?',
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Warum spricht jeder daruber?',
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Warum spricht jeder daruber?',
+  langCode: 'de'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'Zelensky akuza Moskës: I ka ofruar Iranit inteligjencë satelitore mbi infrastrukturën energjetike të Izraelit'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'This news is gaining importance quickly.',
+  implication: 'It may affect your daily decisions or costs.',
+  action: 'Stay alert and do not act before one more concrete fact.',
+  risk: 'medium',
+  why_now: 'It is picking up attention now and may shift fast.',
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'This news is gaining importance quickly.',
+  implication: 'It may affect your daily decisions or costs.',
+  action: 'Stay alert and do not act before one more concrete fact.',
+  risk: 'medium',
+  why_now: 'It is picking up attention now and may shift fast.',
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'This news is gaining importance quickly.',
+  implication: 'It may affect your daily decisions or costs.',
+  action: 'Stay alert and do not act before one more concrete fact.',
+  risk: 'medium',
+  why_now: 'It is picking up attention now and may shift fast.',
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'This news is gaining importance quickly.',
+  implication: 'It may affect your daily decisions or costs.',
+  action: 'Stay alert and do not act before one more concrete fact.',
+  risk: 'medium',
+  why_now: 'It is picking up attention now and may shift fast.',
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Warum spricht jeder daruber?',
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'A beson se kjo shkon ne aktakuze?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'This news is gaining importance quickly.',
+  implication: 'It may affect your daily decisions or costs.',
+  action: 'Stay alert and do not act before one more concrete fact.',
+  risk: 'medium',
+  why_now: 'It is picking up attention now and may shift fast.',
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'This news is gaining importance quickly.',
+  implication: 'It may affect your daily decisions or costs.',
+  action: 'Stay alert and do not act before one more concrete fact.',
+  risk: 'medium',
+  why_now: 'It is picking up attention now and may shift fast.',
+  langCode: 'de'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'iran krieg',
+  category: 'Technologie',
+  country: 'DE',
+  langCode: 'de',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'de'
+  },
+  viralScore: 0.7
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Osterbotschaft von Leo XIV.: Deutliche Worte an die, die Kriege beginnen',
+  category: 'Welt',
+  country: 'DE',
+  langCode: 'de',
+  sentiment: {
+    emotion: 'bold',
+    intensity: 0.7,
+    debate_score: 0.5,
+    relatability: 0.4,
+    langCode: 'de'
+  },
+  viralScore: 0.7
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Pope&apos;s Easter message: Leaders must choose peace over war',
+  category: 'Welt',
+  country: 'DE',
+  langCode: 'de',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'de'
+  },
+  viralScore: 0.66
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Iran startet Krieg gegen Israel?',
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Warum spricht jeder daruber?',
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Një i ri egjiptian u gjet i vdekur në një banesë të braktisur në Tiranë. Trupi u transportua në morgun e qytetit.',
+  implication: 'Kjo ngjarje tregon rritjen e kriminalitetit ose neglizhencën në qytet, duke prekë sigurinë e banorëve.',
+  action: 'Shmang zona të braktisura natën dhe raporto çdo aktivitet të dyshimtë tek policia.',
+  risk: 'medium',
+  why_now: 'Ngjarja është e freskët dhe mund të ndikojë në ndjenjën e sigurisë në zonë.',
+  langCode: 'sq'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'I riu egjiptian u gjet pa shenja jete në një banesë të braktisur, policia: Trupi është transportuar në morgun e Tiranës! Nga ekspertiza rezulton se&#8230;'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: '&#8220;Shijuan një stil luksoz jetese në Los Angeles&#8221;/ SHBA arreston mbesat e ish-komandatit iranian Soleimani, u revokohet Karta e Gjelbër'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: '* Insert hot fuzz "Shame" meme *'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'Me_irl'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateQuestion',
+  langCode: 'sq',
+  temperature: 0.7,
+  title: 'Would your country do this?'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'news_question_generation'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'I riu egjiptian u gjet pa shenja jete në një banesë të braktisur, policia: Trupi është transportuar në morgun e Tiranës! Nga ekspertiza rezulton se&#8230;',
+  category: 'Krim',
+  country: 'AL',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.66
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: '* Insert hot fuzz "Shame" meme *',
+  category: 'Politike',
+  country: 'AL',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'de'
+  },
+  viralScore: 0.64
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Me_irl',
+  category: 'Tjera',
+  country: 'AL',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'de'
+  },
+  viralScore: 0.63
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: '&#8220;Shijuan një stil luksoz jetese në Los Angeles&#8221;/ SHBA arreston mbesat e ish-komandatit iranian Soleimani, u revokohet Karta e Gjelbër',
+  category: 'Krim',
+  country: 'AL',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.66
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'Would your country do this?',
+  category: 'Politike',
+  country: 'AL',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'de'
+  },
+  viralScore: 0.63
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Würdest du einen Papst unterstützen der Kriege verdammt?',
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ceshtja po shkon drejt presionit ligjor.',
+  implication: 'Mund te ndryshoje besimin publik dhe klimën politike.',
+  action: 'Mos u mbeshtet te zhurma; prit nje fakt ose dokument zyrtar.',
+  risk: 'medium',
+  why_now: 'Kur hyn ligji ne loje, narrativa ndryshon shpejt.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Ky lajm po fiton peshe shume shpejt.',
+  implication: 'Mund te preke vendimet ose kostot e dites tende.',
+  action: 'Rri i vemendshem dhe mos vepro pa nje fakt me shume.',
+  risk: 'medium',
+  why_now: 'Po merr vemendje tani dhe mund te ndryshoje shpejt.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'This news is gaining importance quickly.',
+  implication: 'It may affect your daily decisions or costs.',
+  action: 'Stay alert and do not act before one more concrete fact.',
+  risk: 'medium',
+  why_now: 'It is picking up attention now and may shift fast.',
+  langCode: 'de'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'mistralai/mixtral-8x22b-instruct',
+  provider: 'openrouter',
+  role: 'backup',
+  taskType: 'decision_support'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'mistralai/mixtral-8x22b-instruct',
+  provider: 'openrouter',
+  role: 'backup',
+  taskType: 'decision_support'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'mistralai/mixtral-8x22b-instruct',
+  provider: 'openrouter',
+  role: 'backup',
+  taskType: 'news_question_generation'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'mistralai/mixtral-8x22b-instruct',
+  provider: 'openrouter',
+  role: 'backup',
+  taskType: 'news_question_generation'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'mistralai/mixtral-8x22b-instruct',
+  provider: 'openrouter',
+  role: 'backup',
+  taskType: 'news_question_generation'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'mistralai/mixtral-8x22b-instruct',
+  provider: 'openrouter',
+  role: 'backup',
+  taskType: 'news_question_generation'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'mistralai/mixtral-8x22b-instruct',
+  provider: 'openrouter',
+  role: 'backup',
+  taskType: 'news_question_generation'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'mistralai/mixtral-8x22b-instruct',
+  provider: 'openrouter',
+  role: 'backup',
+  taskType: 'decision_support'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'mistralai/mixtral-8x22b-instruct',
+  provider: 'openrouter',
+  role: 'backup',
+  taskType: 'decision_support'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'mistralai/mixtral-8x22b-instruct',
+  provider: 'openrouter',
+  role: 'backup',
+  taskType: 'decision_support'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Papst Leo XIV. warnt in seiner Osterbotschaft vor Kriegstreibenden und fordert Frieden ein.',
+  implication: 'Die Botschaft könnte politische Spannungen verschärfen oder als moralische Aufforderung zum Frieden wahrgenommen werden.',
+  action: 'Beobachten, wie internationale Akteure und Medien auf die Botschaft reagieren – besonders in Krisenregionen.',
+  risk: 'medium',
+  why_now: 'Ostern ist ein symbolträchtiger Zeitpunkt für Friedensappelle, die weltweit Aufmerksamkeit erregen.',
+  langCode: 'de'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'mistralai/mixtral-8x22b-instruct',
+  provider: 'openrouter',
+  role: 'backup',
+  taskType: 'decision_support'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'SHBA arrestojnë mbesat e Soleimanit kaq shpejt?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Cfare ka ndodhur me djalin egjiptian ne banesen e braktisur?',
+  langCode: 'sq'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'mistralai/mixtral-8x22b-instruct',
+  provider: 'openrouter',
+  role: 'backup',
+  taskType: 'decision_support'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'A do të bëhesh meme për të shëmtuar dikë?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Papst betont in Ostermesse: Politiker sollen Frieden statt Krieg wählen.',
+  implication: 'Politische Führungskräfte stehen unter moralischem Druck, Konflikte zu deeskalieren.',
+  action: 'Informiere dich über aktuelle Friedensinitiativen oder bete für Dialog – je nach Überzeugung.',
+  risk: 'medium',
+  why_now: 'Ostern als Symbolzeit für Hoffnung und Neuanfang verstärkt die Botschaft.',
+  langCode: 'de'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'A do të bëjë Shqipëria kështu?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateQuestion',
+  question: 'Pse po flet gjithe bota per kete?',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Një meme e thjeshtë që shpreh ndjenja të zakonshme ose ironike.',
+  implication: 'Përdoret për të treguar se ndjenja jote është normale ose e kuptueshme.',
+  action: 'Përdor këtë meme për të treguar humor ose lidhje me situata të përditshme.',
+  risk: 'low',
+  why_now: "Meme të tilla janë të njohura dhe të lehta për t'u lidhur, duke u ndarë lehtësisht.",
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Një i ri egjiptian u gjet i vdekur në një banesë të braktisur në Tiranë. Trupi u transportua në morgun e qytetit.',
+  implication: 'Kjo ngjarje mund të ndikojë në ndjenjën e sigurisë në zonë ose të nxjerrë në pah problemet e braktisjes së banesave.',
+  action: 'Monitoroni lajmet lokale për zhvillime të reja ose udhëzime nga policia.',
+  risk: 'medium',
+  why_now: 'Ngjarja është e re dhe mund të ketë pasoja për komunitetin lokal ose familjen e viktimës.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'SHBA arrestojnë mbesat e ish-komandantit iranian Soleimani në Los Angeles për stil jetese luksoz, duke revokuar Karta e Gjelbër.',
+  implication: 'Kjo ngjarje lidhet me tensionet ndërkombëtare dhe mund të ndikojë në marrëdhëniet Shqipëri-SHBA.',
+  action: 'Mbijetoni informuar përmes burimeve zyrtare, por mos e merrni personalisht.',
+  risk: 'medium',
+  why_now: 'Ngjarja ka ndodhur së fundmi dhe mund të ketë zhvillime të shpejta.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Kjo pyetje po diskutohen në Shqipëri: A do të bënte vendi ynë këtë?',
+  implication: 'Nxit reflektim mbi vlerat kombëtare dhe vendimmarrjen politike në kontekstin shqiptar.',
+  action: 'Kërko informacion konkret për çështjen e diskutuar dhe formo mendimin tënd duke krahasuar me vlerat e vendit.',
+  risk: 'medium',
+  why_now: 'Pyetja është aktuale dhe nxit debate sociale, duke ndikuar në opinionin publik.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: "Një meme me temë 'Shame' po përhapet në rrjete sociale për temë politike në Shqipëri.",
+  implication: 'Kjo meme mund të ndikojë në perceptimin e publikut ndaj një çështjeje politike konkrete.',
+  action: 'Kontrollo rrjetet sociale për të parë se cilat tema politike lidhen me këtë meme dhe ndërhype me informacion të besueshëm.',
+  risk: 'medium',
+  why_now: 'Meme-t janë shumë të ndjeshme ndaj kontekstit aktual dhe mund të përhapin mesazhe të gabuara ose të manipuluar.',
+  langCode: 'sq'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: '* Insert hot fuzz "Shame" meme *',
+  category: 'Politike',
+  country: 'AL',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'de'
+  },
+  viralScore: 0.64
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: '“Shijuan një stil luksoz jetese në Los Angeles”/ SHBA arreston mbesat e ish-komandatit iranian Soleimani, u revokohet Karta e Gjelbër',
+  category: 'Krim',
+  country: 'AL',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.66
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+AI INPUT: {
+  feature: 'generateNewsDecisionBrief',
+  title: 'I riu egjiptian u gjet pa shenja jete në një banesë të braktisur, policia: Trupi është transportuar në morgun e Tiranës! Nga ekspertiza rezulton se…',
+  category: 'Krim',
+  country: 'AL',
+  langCode: 'sq',
+  sentiment: {
+    emotion: 'calm',
+    intensity: 0.45,
+    debate_score: 0.4,
+    relatability: 0.5,
+    langCode: 'sq'
+  },
+  viralScore: 0.66
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'nvidia/nemotron-3-super-120b-a12b',
+  provider: 'nemotron',
+  role: 'brain',
+  taskType: 'decision_support'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'mistralai/mixtral-8x22b-instruct',
+  provider: 'openrouter',
+  role: 'backup',
+  taskType: 'decision_support'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'mistralai/mixtral-8x22b-instruct',
+  provider: 'openrouter',
+  role: 'backup',
+  taskType: 'decision_support'
+}
+[AI ROUTE] {
+  complexity: 'complex',
+  model: 'mistralai/mixtral-8x22b-instruct',
+  provider: 'openrouter',
+  role: 'backup',
+  taskType: 'decision_support'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'SHBA arrestojnë mbesat e ish-komandantit iranian Soleimani në Los Angeles për stil jetese luksoz, duke revokuar Karta e Gjelbër.',
+  implication: 'Një incident i rëndësishëm ndërkombëtar që lidhet me sigurinë kombëtare dhe marrëdhëniet e SHBA me Iranin.',
+  action: 'Monitoroni zhvillimet e mëtejshme përmes burimeve të besueshme për të kuptuar pasojat ligjore dhe diplomatike.',
+  risk: 'medium',
+  why_now: 'Incidenti ka potencial të ndikojë në marrëdhëniet ndërkombëtare dhe sigurinë e qytetarëve shqiptarë në SHBA.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: 'Një ri egjiptian u gjet i vdekur në një banesë të braktisur në Tiranë. Trupi u transportua në morgun e qytetit për ekspertizë.',
+  implication: 'Kjo ngjarje mund të ndikojë në ndjenjën e sigurisë në zonë ose të nxjerrë në pah rreziqet e jetesës në zona të braktisura.',
+  action: 'Njoftoni autoritetet nëse keni informacion të rëndësishëm për këtë incident ose rreziqe të ngjashme në zonën tuaj.',
+  risk: 'medium',
+  why_now: 'Ngjarja është e re dhe mund të ketë pasoja për komunitetin lokal ose sigurinë publike.',
+  langCode: 'sq'
+}
+AI OUTPUT: {
+  feature: 'generateNewsDecisionBrief',
+  summary: "Një meme me temë 'Shame' po bën rreth në rrjete sociale, duke u lidhur me kontekstin politik në Shqipëri.",
+  implication: 'Kjo meme mund të përdoret për të bërë ironi mbi situata politike aktuale, duke ndikuar në perceptimin e publikut.',
+  action: 'Për të qëndruar informuar, kontrollo burime të besueshme për reagimin e medias ndaj këtij meme.',
+  risk: 'low',
+  why_now: 'Meme-t janë të njohura për shpejtësinë e tyre të përhapjes në rrjete sociale, duke ndikuar në opinionin publik.',
+  langCode: 'sq'
+}
