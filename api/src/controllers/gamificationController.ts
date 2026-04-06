@@ -102,13 +102,15 @@ export async function recordAnswer(req: Request, res: Response) {
       newStreak = 1;
     }
     const newBestStreak = Math.max(newStreak, user.best_streak);
-    const xpGained = 10 + (durationSeconds <= 5 ? 5 : 0);
+    const streakBonus = newStreak >= 7 ? 10 : newStreak >= 3 ? 5 : 0;
+    const xpGained = 10 + (durationSeconds <= 5 ? 5 : 0) + streakBonus;
     const newXp = user.xp + xpGained;
     const newLevel = Math.floor(newXp / 100) + 1;
     await client.query(
-      `UPDATE users SET streak_days=$1, best_streak=$2, last_answer_date=$3, xp=$4, level=$5, updated_at=NOW()
-       WHERE id=$6`,
-      [newStreak, newBestStreak, today, newXp, newLevel, user.id]
+      `UPDATE users SET streak_days=$1, best_streak=$2, last_answer_date=$3, xp=$4, level=$5,
+         weekly_xp = weekly_xp + $6, updated_at=NOW()
+       WHERE id=$7`,
+      [newStreak, newBestStreak, today, newXp, newLevel, xpGained, user.id]
     );
     const answerResult = await client.query(
       `INSERT INTO answers (question_id, user_id, content, duration_seconds)
